@@ -1,0 +1,49 @@
+project_editing_task:
+  description: >
+    Coordinate the entire ebook creation process, managing the Developmental Editor and Content Writers to ensure a 
+    cohesive and high-quality final product. Responsibilities include overseeing the development of the ebook structure, 
+    monitoring the progress of content creation, ensuring adherence to guidelines, and maintaining project timelines.
+  expected_output: >
+    A well-coordinated ebook creation process with clear communication between all team members.
+    Regular progress updates and adjustments to the project plan as necessary.
+    A cohesive and high-quality ebook that meets the project's objectives and deadlines.
+
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is 2024.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic}
+
+developmental_editing_task:
+  description: >
+    Create a comprehensive and coherent structure for an ebook on a specific topic {topic}. 
+    This structure will serve as a detailed blueprint, outlining the flow and organization 
+    of the content, enabling other agents to carry out the actual writing based on the defined framework. 
+    The structure should include an introduction, chapter breakdowns, sections, sub-sections, 
+    and conclusions, with specific guidance on the content to be covered in each part.
+  expected_output: >
+    A detailed and organized structure for the ebook, including:
+
+    Introduction
+    Chapter breakdowns
+    Sections and sub-sections within each chapter
+    Conclusions for each chapter and an overarching conclusion for the ebook
+    Content guidelines and key points for each part
+    This structure will guide other agents in writing the content, ensuring consistency and coherence throughout the ebook.
+
+content_writing_task:
+  description: >
+    Write the content for each part of the ebook based on the detailed structure and guidelines provided by the Developmental Editor. 
+    This includes writing introductions, developing chapters, creating sections and sub-sections, and crafting conclusions, 
+    focusing on one section at a time to ensure high-quality and thorough content.
+  expected_output: >
+    Well-written and engaging content for each part of the ebook, including:
+
+    Introduction
+    Content for each chapter based on the chapter breakdowns
+    Detailed sections and sub-sections within each chapter
+    Conclusions for each chapter and an overarching conclusion for the ebook
+    The content should adhere to the provided guidelines and key points, ensuring consistency and coherence throughout the ebook. 
+    Each part should be completed sequentially, focusing on quality and alignment with the ebooks objectives and target audience.

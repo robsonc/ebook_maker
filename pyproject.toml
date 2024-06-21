@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ebook_maker"
+version = "0.1.0"
+description = "ebook_maker using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.30.11" }
+agentops = "^0.2.3"
+langchain-groq = "^0.1.5"
+
+[tool.poetry.scripts]
+ebook_maker = "ebook_maker.main:run"
+train = "ebook_maker.main:train"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
