@@ -3,6 +3,7 @@ from crewai.project import CrewBase, agent, crew, task
 from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
 from crewai_tools import SerperDevTool
+import os
 #import agentops
 
 # Uncomment the following line to use an example of a custom tool
@@ -17,7 +18,7 @@ llm = ChatOpenAI(model="gpt-4o-2024-05-13")
 
 groq = ChatGroq(
     temperature=0.7, 
-    groq_api_key = "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", 
+    groq_api_key = os.environ("GROQ_API_KEY"), 
     # model_name="llama3-70b-8192",
     # model_name="llama3-8b-8192",
     # model_name="mixtral-8x7b-32768",
